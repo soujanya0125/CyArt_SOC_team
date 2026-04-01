@@ -1,7 +1,5 @@
 # SOAR Playbook Development: Automated Incident Response
 
-**Disclaimer:** This document is designed to guide you through your SOAR Playbook simulation task.
-
 ## 1. Playbook Creation (Splunk Phantom)
 **Objective:** Create a playbook to auto-block IP addresses triggered by phishing alerts.
 
