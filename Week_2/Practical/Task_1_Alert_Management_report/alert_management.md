@@ -49,13 +49,6 @@ Document your findings:
 - Which alert types were most common?
 - How would you improve alert rules?
 
-## Screenshots
-Include screenshots of:
-- [ ] Alert classification process
-- [ ] Custom dashboard view
-- [ ] Alert statistics
-- [ ] Filtering and search functionality
-
 ## Completion Checklist
 - [ ] Classified all sample alerts
 - [ ] Assigned appropriate priorities
