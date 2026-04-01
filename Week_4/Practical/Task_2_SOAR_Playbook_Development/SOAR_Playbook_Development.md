@@ -15,7 +15,7 @@
 
 ---
 
-## 2. Playbook Test Documentation
+# 2. Playbook Test Documentation
 **Objective:** Simulate a phishing alert in Wazuh and verify that the playbook executed successfully.
 
 **Simulation Details:**
@@ -29,12 +29,9 @@
 | 3. Block IP            | Success | CrowdSec successfully banned `10.98.90.102` across all network nodes. |
 | 4. Create Ticket       | Success | Case #105 generated in TheHive with full incident context.            |
 
-*Note: In your actual report, take a screenshot of your Splunk Phantom visual playbook editor and the resulting TheHive ticket.*
-
----
 
 ## 3. Playbook Summary
-**Objective:** Write a 50-word playbook summary for your final report (Google Docs).
+*Objective:** Write a 50-word playbook summary for your final report (Google Docs).
 
-**Summary (Copy to Google Docs):**
-> This automated incident response playbook streamlines phishing remediation by instantly ingesting Wazuh alerts, extracting suspicious IP addresses, and querying external threat intelligence. Upon verifying malicious intent, the playbook actively orchestrates containment by banning the IP via CrowdSec and simultaneously raises an enriched escalation ticket in TheHive for final analyst review.
+**Summary **
+ This automated incident response playbook streamlines phishing remediation by instantly ingesting Wazuh alerts, extracting suspicious IP addresses, and querying external threat intelligence. Upon verifying malicious intent, the playbook actively orchestrates containment by banning the IP via CrowdSec and simultaneously raises an enriched escalation ticket in TheHive for final analyst review.
